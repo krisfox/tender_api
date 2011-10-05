@@ -1,6 +1,8 @@
 = tender_api
 
-Description goes here.
+A very simple Gem to interact with Tender. Currently only supports Categories and Discussions, and creating Discussions only. To setup place in your initializers the following: 
+
+Tender.auth = "your api key"
 
 == Contributing to tender_api
  
