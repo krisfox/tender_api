@@ -1,7 +1,6 @@
 module Tender
 	
-	class Discussion < Base
-		
+	class Category < Tender::Base
 	end
 
 end

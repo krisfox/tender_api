@@ -1,0 +1,9 @@
+# Logfile created on Tue Oct 04 17:40:08 -0700 2011 by logger.rb
+GET http://api.tenderapp.com:80/revolutionprep/categories.xml
+--> 406 Not Acceptable (103 612ms)
+GET http://api.tenderapp.com:80/revolutionprep/categories.json
+--> 200 OK (16903 660ms)
+GET http://api.tenderapp.com:80/revolutionprep/categories.json
+--> 200 OK (16903 287ms)
+GET http://api.tenderapp.com:80/revolutionprep/categories.json
+--> 200 OK (16903 863ms)
