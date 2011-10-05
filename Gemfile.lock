@@ -17,7 +17,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activeresource (= 2.3.11)
+  activeresource (>= 2.3.11)
   bundler (~> 1.0.0)
   jeweler (~> 1.6.4)
   rcov
