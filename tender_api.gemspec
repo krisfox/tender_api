@@ -5,12 +5,12 @@
 
 Gem::Specification.new do |s|
   s.name = %q{tender_api}
-  s.version = "1.0.0"
+  s.version = "1.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Kris Fox"]
   s.date = %q{2011-10-05}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{A very small gem to create discussions on Tender}
   s.email = %q{krisfox@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -32,13 +32,14 @@ Gem::Specification.new do |s|
     "lib/tender_api.rb",
     "spec/category_spec.rb",
     "spec/discussion_spec.rb",
-    "spec/spec_helper.rb"
+    "spec/spec_helper.rb",
+    "tender_api.gemspec"
   ]
   s.homepage = %q{http://github.com/krisfox/tender_api}
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.6.2}
-  s.summary = %q{TODO: one-line summary of your gem}
+  s.summary = %q{A quick and dirty gem to interact with Tender}
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
