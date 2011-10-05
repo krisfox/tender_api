@@ -24,17 +24,7 @@ module Tender
 			Tender.update_format(base)
 			self.logger = Logger.new('test.log')
 			self.logger.level = Logger::DEBUG
-			
-			# ActiveResource::Base.class_eval do
-				alias_method_chain :instantiate_collection, :paginated
-			# end
-			
 		end
-		
-		def self.paginated(collection, prefix_options = {})
-			self.instantiate_collection_without_paginated(collection[self.collection_name], prefix_options = {})
-		end
-		
 	end
 	
 end

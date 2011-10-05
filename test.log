@@ -7,3 +7,17 @@ GET http://api.tenderapp.com:80/revolutionprep/categories.json
 --> 200 OK (16903 287ms)
 GET http://api.tenderapp.com:80/revolutionprep/categories.json
 --> 200 OK (16903 863ms)
+GET http://api.tenderapp.com:80/revolutionprep/categories.json
+--> 200 OK (16903 770ms)
+GET http://api.tenderapp.com:80/revolutionprep/categories.json
+--> 200 OK (16903 729ms)
+GET http://api.tenderapp.com:80/revolutionprep/categories.json
+--> 200 OK (16903 285ms)
+GET http://api.tenderapp.com:80/revolutionprep/categories.json
+--> 200 OK (16903 840ms)
+GET http://api.tenderapp.com:80/revolutionprep/categories.json
+--> 200 OK (16903 884ms)
+GET http://api.tenderapp.com:80/revolutionprep/categories.json
+--> 200 OK (16903 917ms)
+GET http://api.tenderapp.com:80/revolutionprep/categories.json
+--> 200 OK (16903 296ms)
