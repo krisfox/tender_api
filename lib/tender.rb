@@ -52,8 +52,8 @@ module Tender
 				alias_method_chain :site, :update
 			end
 			# self.format = :json
-			self.logger = Logger.new('test.log')
-			self.logger.level = Logger::DEBUG
+			# self.logger = Logger.new('test.log')
+			# self.logger.level = Logger::DEBUG
 			base.site_format = "%s"
 			super
 			Tender.update_token_header(base)
